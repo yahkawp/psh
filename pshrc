@@ -3,4 +3,6 @@
 	print "\n";
 }
 
-$Psh::prompt = '[\u@\h \W]{TESTING psh}$ ';
+#$Psh::prompt = '[\u@\h \W]{TESTING psh}$ ';
+
+option ps1='{psh} \u@\h:\W> '
